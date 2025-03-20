@@ -11,8 +11,7 @@ public class PojosBooking {
     public PojosBooking() {
     }
 
-    public PojosBooking(String id, String propertyId, String startDate, String endDate, String guestName) {
-        this.id = id;
+    public PojosBooking(String propertyId, String startDate, String endDate, String guestName) {
         this.propertyId = propertyId;
         this.startDate = startDate;
         this.endDate = endDate;
@@ -58,5 +57,17 @@ public class PojosBooking {
     public void setGuestName(String guestName) {
         this.guestName = guestName;
     }
+
+    @Override
+    public String toString() {
+        return "PojosBooking{" +
+                "id='" + id + '\'' +
+                ", propertyId='" + propertyId + '\'' +
+                ", startDate='" + startDate + '\'' +
+                ", endDate='" + endDate + '\'' +
+                ", guestName='" + guestName + '\'' +
+                '}';
+    }
+
 
 }
