@@ -59,14 +59,4 @@ public class PojosBooking {
         this.guestName = guestName;
     }
 
-    @Override
-    public String toString() {
-        return "PojosBooking{" +
-                "id='" + id + '\'' +
-                ", propertyId='" + propertyId + '\'' +
-                ", startDate='" + startDate + '\'' +
-                ", endDate='" + endDate + '\'' +
-                ", guestName='" + guestName + '\'' +
-                '}';
-    }
 }
